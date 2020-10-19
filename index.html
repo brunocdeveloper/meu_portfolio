@@ -4,26 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Apresentação</title>
+    <link href = "https://fonts.googleapis.com/css2? family = Merriweather: wght @ 700 & display = swap" rel = "stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: #a3c9a8;        
+        }
+
+        #name{
+            font-family: 'Merriweather', serif;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        #description, #abiliity{
+            font-family: 'Lora', serif;
+            font-size: 18px;
+        }
+       
+        .fontlora{
+            font-family: 'Lora', serif;
+            font-size: 18px;
+        }
+
+        li{
+            font-family: 'Lora', serif;
+            font-size: 18px;
+        }
+
+        img{
+            border-radius: 2%;
+        
+        }
+
+        #image{
+            position: relative;
+            left: 42%;
+        }
+
+        p{
+            font-size: 18px;
+        }
+
+        strong{
+            font-size: 19px;
+        }
+    </style>
 </head>
 <body><br>
-    <h1 id=nome>Bruno Cândido Morais</h1><br>
-    <img id=foto src='bruno-copia.JPG' alt='foto de Bruno Cândido com a camisa de seu herói favorito' width=200px><br>
-    <p>Essa é uma foto minha, usando a camisa do meu herói <strong>favorito.</strong></p><br>
-    <p id=descricao>De São Lourenço - Minas Gerais, terra das águas. Sou estudando de programação da <strong>Trybe</strong> e<br> busco aperfeiçoar meus conheçimentos para me tornar um grande desenvolvedor.<br> Eu amo <em>xadrez, músicas, jogos e séries</em>. Tive experiência profissional como fotografo e financeiro<br> das empresas do Grupo Carmaso em minha cidade e ainda espero usar esses conhecimentos para minhas<br> futuras atividades como programador
+    <h1 id=name>Bruno Cândido Morais</h1><br>
+    <img id=image src='bruno-copia.JPG' alt='foto de Bruno Cândido com a camisa de seu herói favorito' width=200px><br>
+    <p class="fontlora">Essa é uma foto minha, usando a camisa do meu herói <strong>favorito.</strong></p><br>
+    <p id=description>De São Lourenço - Minas Gerais, terra das águas. Sou estudando de programação da <strong>Trybe</strong> e<br> busco aperfeiçoar meus conheçimentos para me tornar um grande desenvolvedor.<br> Eu amo <em>xadrez, músicas, jogos e séries</em>. Tive experiência profissional como fotografo e financeiro<br> das empresas do Grupo Carmaso em minha cidade e ainda espero usar esses conhecimentos para minhas<br> futuras atividades como programador
     </p><br><br>
-    <ul id=habilidades>
+    <ul id=abiliity class="fontlora">
+        <p>Minhas principais qualidades são:</p>
         <li><em><strong>Bom Aprendiz</em></strong></li>
         <p>Sinto que tenho muita pré-disposição em questionar o que tenho difículdade,<br> e valorizo muito o aprendizado com a prática e com os erros. Aprender a aprender é essêncial.</p>
         <li><em>Resiliente</em></li><br>
         <li><em>Flexível</em></li><br>
         <li><em>Entusiasta</em></li><br>
-        <p>Aqui segue um blog que sempre gosto de visitar,<br> por gostar muito de natureza: <a href='https://pisa.tur.br/blog/' target='-blank'>Blog sobre acampamento.</a></p>
+        <p class="fontlora">Aqui segue um blog que sempre gosto de visitar,<br> por gostar muito de natureza: <a href='https://pisa.tur.br/blog/' target='-blank'>Blog sobre acampamento.</a></p>
     </ul><br>
-    <ul>
-        <li><a href=#nome>Meu nome</a></li><br>
-        <li><a href=#descricao>Descrição</a></li><br>
-        <li><a href=#habilidades>Características e Habilidades</a></li><br>
-        <li><a href=#foto>Minha foto</a></li>
+    <ul class="fontlora">
+        <li><a href=#name>Meu nome</a></li><br>
+        <li><a href=#description>Descrição</a></li><br>
+        <li><a href=#abiliity>Características e Habilidades</a></li><br>
+        <li><a href=#image>Minha foto</a></li>
     </ul>
 </body>
 </html>
