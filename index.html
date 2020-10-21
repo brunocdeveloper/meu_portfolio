@@ -6,72 +6,38 @@
     <title>Minha Apresentação</title>
     <link href = "https://fonts.googleapis.com/css2? family = Merriweather: wght @ 700 & display = swap" rel = "stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Merriweather:wght@700&display=swap" rel="stylesheet">
-    <style>
-        body{
-            background-color: #a3c9a8;        
-        }
-
-        #name{
-            font-family: 'Merriweather', serif;
-            text-align: center;
-            font-size: 18px;
-        }
-
-        #description, #abiliity{
-            font-family: 'Lora', serif;
-            font-size: 18px;
-        }
-       
-        .fontlora{
-            font-family: 'Lora', serif;
-            font-size: 18px;
-        }
-
-        li{
-            font-family: 'Lora', serif;
-            font-size: 18px;
-        }
-
-        img{
-            border-radius: 2%;
-        
-        }
-
-        #image{
-            position: relative;
-            left: 42%;
-        }
-
-        p{
-            font-size: 18px;
-        }
-
-        strong{
-            font-size: 19px;
-        }
+    <link rel="stylesheet" href='style.css'>
+    <style>       
     </style>
 </head>
 <body><br>
-    <h1 id=name>Bruno Cândido Morais</h1><br>
-    <img id=image src='bruno-copia.JPG' alt='foto de Bruno Cândido com a camisa de seu herói favorito' width=200px><br>
-    <p class="fontlora">Essa é uma foto minha, usando a camisa do meu herói <strong>favorito.</strong></p><br>
-    <p id=description>De São Lourenço - Minas Gerais, terra das águas. Sou estudando de programação da <strong>Trybe</strong> e<br> busco aperfeiçoar meus conheçimentos para me tornar um grande desenvolvedor.<br> Eu amo <em>xadrez, músicas, jogos e séries</em>. Tive experiência profissional como fotografo e financeiro<br> das empresas do Grupo Carmaso em minha cidade e ainda espero usar esses conhecimentos para minhas<br> futuras atividades como programador
-    </p><br><br>
-    <ul id=abiliity class="fontlora">
-        <p>Minhas principais qualidades são:</p>
-        <li><em><strong>Bom Aprendiz</em></strong></li>
-        <p>Sinto que tenho muita pré-disposição em questionar o que tenho difículdade,<br> e valorizo muito o aprendizado com a prática e com os erros. Aprender a aprender é essêncial.</p>
-        <li><em>Resiliente</em></li><br>
-        <li><em>Flexível</em></li><br>
-        <li><em>Entusiasta</em></li><br>
-        <p class="fontlora">Aqui segue um blog que sempre gosto de visitar,<br> por gostar muito de natureza: <a href='https://pisa.tur.br/blog/' target='-blank'>Blog sobre acampamento.</a></p>
-    </ul><br>
-    <ul class="fontlora">
-        <li><a href=#name>Meu nome</a></li><br>
-        <li><a href=#description>Descrição</a></li><br>
-        <li><a href=#abiliity>Características e Habilidades</a></li><br>
-        <li><a href=#image>Minha foto</a></li>
-    </ul>
-    <p>teste alteração</p>
+        <div>
+            <h1 id=name>Bruno Cândido Morais</h1><br>
+            <img id=image src='bruno-copia.JPG' alt='foto de Bruno Cândido com a camisa de seu herói favorito' width=200px><br>
+            <!--<p class="fontlora">Essa é uma foto minha, usando a camisa do meu herói <strong>favorito.</strong></p><br>-->
+            <p id=description>De São Lourenço - Minas Gerais, terra das águas. Sou estudando de programação da <strong>Trybe</strong> e busco aperfeiçoar meus conheçimentos para me tornar um grande desenvolvedor. Eu amo <em>xadrez, músicas, jogos e séries</em>. Tive experiência profissional como fotografo e financeiro das empresas do Grupo Carmaso em minha cidade e ainda espero usar esses conhecimentos para minhas futuras atividades como programador.
+            </p><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+        <div id='abiliityBlock'>
+            <ul id='abiliity'class="fontlora">
+                <h3>Minhas principais qualidades são:</h3>
+                <li><em><strong>Bom Aprendiz</em></strong></li>
+                <p>Sinto que tenho muita pré-disposição em questionar o que tenho difículdade,<br> e valorizo muito o aprendizado com a prática e com os erros. Aprender a aprender é essêncial.</p>
+                <li><em>Resiliente</em></li><br>
+                <li><em>Flexível</em></li><br>
+                <li><em>Entusiasta</em></li><br>
+                <p class="fontlora pbold">Aqui segue alguns links que costumo visitar:</p>
+                <li><a href='https://pisa.tur.br/blog/' target='-blank'>Blog sobre acampamento.</a></li><br>
+                <li><a href='https://www.youtube.com/channel/UCU5JicSrEM5A63jkJ2QvGYw'>Canal sobre programação Felipe Deschamps</a></li><br>
+                <li><a href='https://news.google.com/topstories?hl=pt-BR&gl=BR&ceid=BR:pt-419'>Site sobre notícias</a></li>
+            </ul><br>
+            <ul class="fontlora">
+                <p class='pbold'>Links de direcionamento da página</p>
+                <li><a href=#name>Meu nome</a></li><br>
+                <li><a href=#description>Descrição</a></li><br>
+                <li><a href=#abiliity>Características e Habilidades</a></li><br>
+                <li><a href=#image>Minha foto</a></li>
+            </ul>
+        </div>
 </body>
 </html>
