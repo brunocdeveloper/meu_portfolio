@@ -1,46 +1,42 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-const Inicio = styled.button`
+export const ContainerButton = styled.div`
   position: absolute;
-  width: 67px;
-  height: 30px;
-  left: 899px;
-  top: 36px;
+  align-self: flex-end;
+  top: 6%;
+  right: 2%;
+  margin: 0 6px;
+`
+const Inicio = styled.button`
   background: none;
   color: #FFFFFF;
   border: none;
   font-size: 28px;
+  margin: 0 8px;
 `
 const Projetos = styled.button`
-  position: absolute;
-  width: 67px;
-  height: 30px;
-  left: 1031px;
-  top: 36px;
   background: none;
   color: #FFFFFF;
   border: none;
   font-size: 28px;
+  margin: 0 8px;
 `
 const Contatos = styled.button`
-  position: absolute;
-  width: 67px;
-  height: 30px;
-  left: 1197px;
-  top: 36px;
   background: none;
   color: #FFFFFF;
   border: none;
   font-size: 28px;
+  margin: 0 8px;
 `
 function HeaderButton() {
   return(
-    <div>
-      <Inicio type='button'>Inicio</Inicio>
-      <Projetos type='button'>Projetos</Projetos>
-      <Contatos type='button'>Contatos</Contatos>
-    </div>
+    <ContainerButton>
+      <Link to="/"><Inicio>Inicio</Inicio></Link>
+      <Link to="/projects"><Projetos>Projetos</Projetos></Link>
+      <Link to="/contacts"><Contatos>Contatos</Contatos></Link>
+    </ContainerButton>
   )
 }
 
