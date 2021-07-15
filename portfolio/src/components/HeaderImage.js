@@ -6,7 +6,7 @@ import HeaderTitle from './HeaderTitle';
 export const Container = styled.div`
   position: relative;
   margin: auto;
-  width: 1200px;
+  width: 1366px;
   height: 500px;  
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@ export const Container = styled.div`
 
   img {
     height: 500px;
-    width: 1200px;
+    width: 1366px;
   }
 `
 
