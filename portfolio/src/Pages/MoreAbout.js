@@ -4,7 +4,7 @@ import HeaderButton from '../components/HeaderButtons';
 function MoreAbout() {
   return (
     <div>
-      <HeaderButton />
+      Será renderizado a página mais sobre mim.
     </div>
   )
 }
