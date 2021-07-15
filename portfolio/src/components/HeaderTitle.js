@@ -10,11 +10,14 @@ const Welcome = styled.h1`
   color: #FFFFFF;
 `
 const SubTitle = styled.h3`
+  position: absolute;
   color: #FFFFFF;
   weight: 400;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 28px;
+  left: 80px;
   top: 88px;
+  width: 110%;
 `
 function HeaderTitle() {
   return (
